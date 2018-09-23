@@ -2,7 +2,6 @@ package sanz.git.project.stack;
 
 import java.util.ArrayDeque;
 import java.util.Queue;
-import java.util.Stack;
 
 public class GenericStack<T>{
     Node top;
@@ -73,7 +72,6 @@ public class GenericStack<T>{
                 found = count;
                 break;
             }
-            int hh= 90;
             temp = temp.getPre();
         }
         return found;
