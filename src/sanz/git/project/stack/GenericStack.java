@@ -73,7 +73,6 @@ public class GenericStack<T>{
                 found = count;
                 break;
             }
-            int hh= 90;
             temp = temp.getPre();
         }
         return found;
